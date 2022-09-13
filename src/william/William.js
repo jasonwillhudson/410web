@@ -1,12 +1,12 @@
 import WeekOne from "./WeekOne";
 
-const Team = () => {
+const William = () => {
 
     return <div className="blog-page">
-        <h1>Team Blog</h1>
+        <h1>William's Blog</h1>
         <WeekOne/>
 
     </div>
 }
 
-export default Team;
+export default William;

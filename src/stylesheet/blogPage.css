@@ -1,0 +1,19 @@
+.blog-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px;
+}
+
+.blog-page h1{
+    text-shadow: 0 0 30px var(--text-shadow);
+}
+.blog-content{
+    margin-top: 150px;
+    max-width: 1000px;
+}
+
+.blog-content h2{
+    color: var(--text-color);
+    text-shadow: none;
+}

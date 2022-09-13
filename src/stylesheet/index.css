@@ -1,6 +1,11 @@
 @font-face {
   font-family: pixelFont;
-  src: url("font/pixel.ttf");
+  src: url("../font/pixel.ttf");
+}
+
+@font-face {
+  font-family: paraFont;
+  src: url("../font/dogica.ttf");
 }
 
 :root {
@@ -8,11 +13,13 @@
   --sub-color: #302b25;
   --bg-color:#0a0d0a;
   --text-shadow: #690804;
+  --text-color:#373a3e;
+  --light-color: #f8c337;
 }
 
 *{
   box-sizing: border-box;
-  margin: 0px;
+  margin: 0;
   padding: 0;
 }
 body {
@@ -22,35 +29,50 @@ body {
   background-color: var(--bg-color);
 }
 
+p{
+  font-size: 20px;
+  color: var(--light-color);
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
 h1{
-  font-size: 130px;
-  text-shadow: 0px 0px 30px var(--text-shadow);
+  font-size: 160px;
+  text-shadow: 0 0 50px var(--text-shadow);
   color: var(--bg-color);
+  font-weight: 999;
 }
 
 h2{
-  font-size: 70px;
+  font-size: 90px;
   color:var(--bg-color);
-  line-height: 0px;
-  margin-bottom: 50px;
-  text-shadow: 0px 0px 20px var(--text-shadow);
+  line-height: 0;
+  margin-bottom: 70px;
+  text-shadow: 0 0 40px var(--text-shadow);
+}
+
+h3{
+  color:var(--text-color);
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 h4{
   font-size: 40px;
   line-height: 0;
-  text-shadow: 0px 0px 10px var(--text-shadow);
+  text-shadow: 0 0 20px var(--text-shadow);
   color: var(--bg-color);
   z-index: 999;
 }
 a{
-  font-size: 40px;
+  font-size: 50px;
   color:var(--sub-color);
+  text-decoration:none;
 }
 
 a:hover{
   cursor: pointer ;
-  text-shadow: 0px 0px 15px #f8c337;
+  text-shadow: 0 0 15px #f8c337;
   color: var(--bg-color);
   transition: .2s;
 
