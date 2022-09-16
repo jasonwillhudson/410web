@@ -1,8 +1,10 @@
+import image from '../img/team-1.gif'
+
 const WeekOne = () => {
 
     return <div className="blog-content">
         <h2>Week One</h2>
-        <h3>2022, Sep 11th</h3>
+        <h3>2022, Sep 15th</h3>
         <p>During week 1, we brainstormed the details of our Game Proposal. We already had a rough idea of what we were
             going to make. A 2D top-down RPG and adventure-based rogue-like game that revolves around Japanese
             Mythology. The setting takes place in the nights of a Japanese village but the main character, a Samurai who
@@ -21,6 +23,7 @@ const WeekOne = () => {
             range is limited within the space around them, as pure darkness lies past the player’s vision. In addition
             to this, we thought of a combat buddy (a wisp) that the player can have to assist them with visibility in
             the dark.</p>
+        <img src={image} alt="image" style={{width: "300px"}}/>
     </div>
 }
 

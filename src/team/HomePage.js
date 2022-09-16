@@ -1,8 +1,8 @@
 const Home = () => {
 
     return (<div className="home">
-        <h4>&copy;IAT 410 FALL 2022</h4>
-        <h1>GAME NAME</h1>
+        <h4>&copy;64Bits</h4>
+        <h1>Last Light</h1>
         <h2>Blog</h2>
         <div style={{display: "flex", textAlign: "left"}}>
             <div style={{margin:"30px"}}>
