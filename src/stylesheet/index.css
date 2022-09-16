@@ -52,7 +52,7 @@ h2{
 }
 
 h3{
-  color:var(--text-color);
+  color:var(--sub-color);
   font-size: 30px;
   margin-bottom: 30px;
 }
