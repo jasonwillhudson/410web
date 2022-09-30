@@ -1,5 +1,6 @@
 import WeekOne from "./WeekOne";
 import WeekTwo from "./WeekTwo";
+import WeekThree from "./WeekThree";
 
 const Daniel = () => {
 
@@ -7,6 +8,7 @@ const Daniel = () => {
         <h1>Daniel's Blog</h1>
         <WeekOne/>
         <WeekTwo/>
+        <WeekThree/>
 
     </div>
 }
