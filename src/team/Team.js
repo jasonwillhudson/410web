@@ -2,6 +2,7 @@ import WeekOne from "./WeekOne";
 import WeekTwo from "./WeekTwo";
 import WeekThree from "./WeekThree";
 import WeekFour from "./WeekFour";
+import WeekSix from "./WeekSix";
 
 const Team = () => {
 
@@ -11,6 +12,7 @@ const Team = () => {
         <WeekTwo/>
         <WeekThree/>
         <WeekFour/>
+        <WeekSix/>
 
     </div>
 }
