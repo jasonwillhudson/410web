@@ -1,7 +1,3 @@
-import image1 from '../img/team-4.png'
-
-
-
 
 
 const WeekThree = () => {
@@ -14,8 +10,7 @@ const WeekThree = () => {
         <p>Other than adding new functions to our game, we also invited people to test our game in three different sessions. After they tried on the game, we gained some useful feedback. With the feedback we gathered, we can improve the user experience based on the playtest feedback. This week we also wrote the GDD which helps us to conclude the works we have done so far and gives us a view of the next steps we will work on in the following weeks.
         </p>
 
-        <img src={image1} alt="example"
-             style={{height: "300px"}}/>
+
 
 
     </div>

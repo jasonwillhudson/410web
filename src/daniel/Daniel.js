@@ -2,6 +2,9 @@ import WeekOne from "./WeekOne";
 import WeekTwo from "./WeekTwo";
 import WeekThree from "./WeekThree";
 import WeekFour from "./WeekFour";
+import WeekFive from "./WeekFive";
+import WeekSix from "./WeekSix";
+import WeekSeven from "./WeekSeven";
 
 const Daniel = () => {
 
@@ -11,6 +14,9 @@ const Daniel = () => {
         <WeekTwo/>
         <WeekThree/>
         <WeekFour/>
+        <WeekFive/>
+        <WeekSix/>
+        <WeekSeven/>
 
     </div>
 }
