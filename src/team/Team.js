@@ -8,6 +8,9 @@ import WeekSeven from "./WeekSeven";
 import WeekEight from "./WeekEight";
 import WeekNine from "./WeekNine";
 import WeekTen from "./WeekTen";
+import WeekEleven from "./WeekEleven";
+import WeekTwelve from "./WeekTwelve";
+import WeekThirteen from "./WeekThirteen";
 
 const Team = () => {
 
@@ -23,6 +26,9 @@ const Team = () => {
         <WeekEight/>
         <WeekNine/>
         <WeekTen/>
+        <WeekEleven/>
+        <WeekTwelve/>
+        <WeekThirteen/>
 
     </div>
 }
